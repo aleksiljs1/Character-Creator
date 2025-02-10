@@ -1,11 +1,11 @@
 
 import { CharacterData } from "./character-data";
 export class Character {
-    readonly gender: string;
-    readonly hair: string;
-    readonly facialHair: string;
-    readonly eyes: string;
-    readonly size: number;
+     gender: string;
+     hair: string;
+     facialHair: string;
+     eyes: string;
+     size: number;
 
     constructor(data: CharacterData) {
         this.gender = data.gender;
